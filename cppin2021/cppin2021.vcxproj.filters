@@ -21,5 +21,8 @@
     <ClCompile Include="helloworld.ixx">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="thebasics.ixx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

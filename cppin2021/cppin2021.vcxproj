@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="helloworld.ixx" />
     <ClCompile Include="main.cppm" />
+    <ClCompile Include="thebasics.ixx" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
