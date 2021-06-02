@@ -19,9 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="helloworld.ixx" />
     <ClCompile Include="main.cppm" />
-    <ClCompile Include="thebasics.ixx" />
+    <ClCompile Include="vector3.ixx" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
