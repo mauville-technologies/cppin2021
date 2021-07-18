@@ -16,6 +16,9 @@
     <Filter Include="Source Files\types">
       <UniqueIdentifier>{3c617099-45ef-4bf1-be29-14ce9ae6715c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\input">
+      <UniqueIdentifier>{2efd1a7b-e216-4a24-8954-b8f1b4feef8c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cppm">
@@ -23,6 +26,12 @@
     </ClCompile>
     <ClCompile Include="vector3.ixx">
       <Filter>Source Files\types</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.ixx">
+      <Filter>Source Files\input</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\input</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

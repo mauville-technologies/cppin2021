@@ -19,6 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="InputManager.ixx" />
     <ClCompile Include="main.cppm" />
     <ClCompile Include="vector3.ixx" />
   </ItemGroup>
