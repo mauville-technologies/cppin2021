@@ -1,6 +1,7 @@
 
 import vector3;
 import InputManager;
+import TaskManager;
 
 import <iostream>;
 import <string>;
@@ -54,6 +55,30 @@ struct Game {
 
     void Run() {
         _inputManager.Dispatch(InputManager::EventType::MOUSE, "Bound message");
+
+        _running = true;
+        _taskManager.Start();
+
+        while (_running) {
+            Command command{ 0 };
+
+            std::cout << "Give me a command! (must be an integer!)\n";
+            std::cin >> command;
+
+            switch (command) {
+            case -98:
+                // restart task manager
+                _taskManager.Start();
+                break;
+            case -99:
+                _running = false;
+                break;
+            default:
+                _taskManager.QueueCommand(command);
+            }
+        }
+
+        std::cout << "Game Loop Ended\n";
     }
 
     bool handleMouseEvent(std::string message) {
@@ -63,6 +88,9 @@ struct Game {
 
 private:
     InputManager _inputManager{};
+    TaskManager _taskManager{};
+
+    bool _running{ false };
 };
 
 void handleMouseEvent(std::string message) {

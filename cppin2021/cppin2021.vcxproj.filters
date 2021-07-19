@@ -19,6 +19,9 @@
     <Filter Include="Source Files\input">
       <UniqueIdentifier>{2efd1a7b-e216-4a24-8954-b8f1b4feef8c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\tasks">
+      <UniqueIdentifier>{2d8e63bc-5802-4e83-a2cf-84f04d2c7547}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cppm">
@@ -32,6 +35,12 @@
     </ClCompile>
     <ClCompile Include="InputManager.cpp">
       <Filter>Source Files\input</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskManager.ixx">
+      <Filter>Source Files\tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskManager.cpp">
+      <Filter>Source Files\tasks</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

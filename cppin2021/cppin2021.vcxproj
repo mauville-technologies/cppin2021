@@ -22,6 +22,8 @@
     <ClCompile Include="InputManager.cpp" />
     <ClCompile Include="InputManager.ixx" />
     <ClCompile Include="main.cppm" />
+    <ClCompile Include="TaskManager.cpp" />
+    <ClCompile Include="TaskManager.ixx" />
     <ClCompile Include="vector3.ixx" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
